@@ -1,3 +1,10 @@
+::selection {
+  background: #00C281;
+}
+::-moz-selection {
+  background: #00C281;
+}
+
 body {
     color: #f6f6f6;
     background-color: #25292E;
@@ -5,6 +12,8 @@ body {
     padding-bottom: 4rem;
     font-weight: 400;
 }
+
+
 
 p span {
 	color: rgb(69, 80, 92);
