@@ -1,6 +1,6 @@
 # Avanza Night Mode
 
-![icon](./src/icons/icon-48.png)
+![icon](./src/icons/icon.png)
 
 All The Cool Kids Are Night Trading. Make it easier on the eyes
 
