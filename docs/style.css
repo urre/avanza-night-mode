@@ -1,0 +1,47 @@
+body {
+    color: #f6f6f6;
+    background-color: #25292E;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-weight: 400;
+}
+
+p span {
+	color: rgb(69, 80, 92);
+}
+
+a {
+    color: #00C281;
+    transition: color 300ms;
+}
+
+a:hover {
+	color: white;
+}
+
+.button {
+    background-color: #00C281;
+    display: inline-block;
+    transition: background-color 300ms;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(69, 80, 92);
+}
+
+.button-icon {
+    display: inline-block;
+    vertical-align: -2px;
+}
+
+img {
+    max-width: 100%;
+}
+
+img {
+    border: 1px solid rgb(55, 62, 70);
+    display: inline-block;
+}

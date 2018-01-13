@@ -1,0 +1,26 @@
+{
+	"name": "avanza-night-mode",
+	"version": "1.0.0",
+	"description": "Trading at night",
+	"main": "./src/gulpfile.js",
+	"scripts": {
+		"ship": "gulp zip"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/urre/avanza-night-mode.git"
+	},
+	"keywords": [
+		"hemnet"
+	],
+	"author": "Urban Sanden",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/urre/hemterest/issues"
+	},
+	"homepage": "https://github.com/urre/hemterest#readme",
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-zip": "^4.0.0"
+	}
+}
