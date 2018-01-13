@@ -2,7 +2,12 @@
 
 ![icon](./src/icons/icon.png)
 
-All The Cool Kids Are Night Trading. Make it easier on the eyes
+All the cool kids are night trading. Make it easier on the eyes.
+
++ Beautiful typography using San Francisco
++ Dark background colors
++ Wider page width + more
++ It's free of course.
 
 ![Avanza Night Mode](https://res.cloudinary.com/urre/image/upload/v1515861059/gmbcik34yzaiw2xpvqos.png)
 
