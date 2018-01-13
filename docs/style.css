@@ -10,6 +10,10 @@ p span {
 	color: rgb(69, 80, 92);
 }
 
+h1 {
+	letter-spacing: .01em;
+}
+
 a {
     color: #00C281;
     transition: color 300ms;
@@ -24,7 +28,7 @@ a:hover {
     display: inline-block;
     transition: background-color 300ms;
     -webkit-font-smoothing: antialiased;
-    font-weight: 600;
+    font-weight: 700;
     border: none;
 }
 
