@@ -1,7 +1,7 @@
 {
 	"name": "avanza-night-mode",
 	"version": "1.0.0",
-	"description": "Trading at night",
+	"description": "All The Cool Kids Are Night Trading. Make it easier on the eyes",
 	"main": "./src/gulpfile.js",
 	"scripts": {
 		"ship": "gulp zip"
@@ -16,9 +16,9 @@
 	"author": "Urban Sanden",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/urre/hemterest/issues"
+		"url": "https://github.com/urre/avanza-night-mode/issues"
 	},
-	"homepage": "https://github.com/urre/hemterest#readme",
+	"homepage": "https://github.com/urre/avanza-night-mode#readme",
 	"devDependencies": {
 		"gulp": "^3.9.1",
 		"gulp-zip": "^4.0.0"
