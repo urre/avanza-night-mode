@@ -1,61 +1,79 @@
 ::selection {
-  background: #00C281;
+  background: #00c281;
 }
 ::-moz-selection {
-  background: #00C281;
+  background: #00c281;
 }
 
 body {
-    color: #f6f6f6;
-    background-color: #25292E;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    font-weight: 400;
+  color: #f6f6f6;
+  background-color: #25292e;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-weight: 400;
+  font-family: system-ui;
+  font-size: 125%;
 }
 
-
-
 p span {
-	color: rgb(69, 80, 92);
+  color: rgb(69, 80, 92);
 }
 
 h1 {
-	letter-spacing: .01em;
+  letter-spacing: 0.01em;
 }
 
 a {
-    color: #00C281;
-    transition: color 300ms;
-    text-decoration: none;
+  color: #00c281;
+  transition: color 300ms;
+  text-decoration: none;
 }
 
 a:hover {
-	color: white;
+  color: white;
+}
+
+.container {
+  max-width: 60em;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .button {
-    background-color: #00C281;
-    display: inline-block;
-    transition: background-color 300ms;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 700;
-    border: none;
+  background-color: #00c281;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 300ms;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  border: none;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
 }
 
 .button:hover {
-    background-color: rgb(69, 80, 92);
+  background-color: rgb(69, 80, 92);
 }
 
-.button-icon {
-    display: inline-block;
-    vertical-align: -2px;
-}
-
-img {
-    max-width: 100%;
+.button svg {
+  display: inline-block;
+  margin-right: .5rem;
+  vertical-align: -2px;
 }
 
 img {
-    border: 1px solid rgb(55, 62, 70);
-    display: inline-block;
+  max-width: 100%;
+}
+
+.screenshot {
+  border-radius: 8px;
+  border: 2px solid rgba(0, 110, 74, 0.6);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+img {
+  display: block;
 }
