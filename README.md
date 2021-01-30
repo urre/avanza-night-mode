@@ -6,7 +6,12 @@ All the cool kids are night trading. Make it easier on the eyes.
 
 <img src="https://res.cloudinary.com/urre/image/upload/v1605950321/screenshots/pmxonku2jej65zjurqg0.jpg" style="border-radius: 8px">
 
-## [Install from Google Web Store](https://chrome.google.com/webstore/detail/avanza-night-mode/fhealgidlggdmnnomklnnmhihfaipbmc)
+## Install
++ Clone repo or download zip
++ Open upp Google Chrome Extensions. Window → Extensions. Or goto chrome://extensions/
++ Cick Developer Mode
++ Click Load Unpacked Extension
++ Navigate to the folder where you saved it
 
 ### Changelog
 + 2020-11-21: Minor updates
