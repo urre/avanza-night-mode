@@ -2,12 +2,49 @@
   --border: #2e3a44;
   --bg: #25292e;
   --text: #839eb4;
+  --color-surface-elevated: #25292e !important;
+  --color-surface-discreet-a:  #25292e !important
 }
 
 * {
-  background-color: var(--bg) !important;
   color: var(--text) !important;
   font-family: system-ui, sans-serif !important;
+}
+
+body,
+.avanzabankHeaderTopBar,
+.avanzabankHeaderBackground,
+table *,
+.tag,
+.aza-cta-button,
+[type="button"],
+aza-expansion-panel,
+aza-menu,
+aza-card,
+aza-header,
+aza-card:hover,
+[data-analytics-label="Nyhet"],
+[data-analytics-label="Nyhet"]:hover,
+.campaign,
+aza-toggle-option,
+aza-campaign-area,
+aza-key-indicators,
+aza-period-picker,
+.top-page-container,
+.chart-card-header,
+.chart-container,
+.top-page-container,
+.personal-nav,
+.instrument-chart-container {
+  background-color: var(--bg) !important;
+}
+
+aza-toggle-switch {
+  background-color: transparent !important;
+}
+
+.active-indicator  {
+  background-color: black !important
 }
 
 body {
@@ -15,16 +52,6 @@ body {
   color: #f6f6f6 !important;
 }
 
-.highcharts-loading * {
-  background: none !important;
-}
-
-.hsChartWrapper *,
-.index_graph_widget *,
-.accountchart * {
-  background-color: transparent !important;
-  color: white !important;
-}
 
 .highcharts-series path {
   fill: transparent !important;
@@ -34,23 +61,13 @@ body {
   stroke: var(--border) !important;
 }
 
-.highcharts-background {
+.highcharts-tooltip-box {
   fill: var(--bg) !important;
-}
-
-.highcharts-background * {
-  border: none !important;
-}
-
-.highcharts-tooltip * {
-  color: var(--bg) !important;
 }
 
 aza-account:before {
   display: none !important;
 }
-
-
 
 .toggleBar.whiteBG {
   color: inherit !important;
@@ -247,6 +264,10 @@ a.logo,
   background-size: 84px 25px !important;
   background-repeat: no-repeat !important;
   display: block !important;
+}
+
+[aria-label="Välkommen till Avanza"] svg {
+  display: none !important;
 }
 
 .logo img {
