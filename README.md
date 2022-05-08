@@ -14,6 +14,7 @@ All the cool kids are night trading. Make it easier on the eyes.
 + Navigate to the folder where you saved it
 
 ### Changelog
++ 2022-05-08: Fixed highchart tooltip legend
 + 2020-11-21: Minor updates
 + 2018-01-13: [Published the Extension](https://chrome.google.com/webstore/detail/avanza-night-mode/fhealgidlggdmnnomklnnmhihfaipbmc) to Chrome Web Store
 + 2018-01-13: First version released
