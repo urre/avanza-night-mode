@@ -3,7 +3,9 @@
   --bg: #25292e;
   --text: #839eb4;
   --color-surface-elevated: #25292e !important;
-  --color-surface-discreet-a:  #25292e !important
+  --color-surface-discreet-a:  #25292e !important;
+  --color-surface-discreet: #2e3a44 !important;
+  --color-surface-neutral: #2e3a44 !important;
 }
 
 * {
@@ -35,7 +37,22 @@ aza-period-picker,
 .chart-container,
 .top-page-container,
 .personal-nav,
+.systemMsg p,
 .instrument-chart-container {
+  background-color: var(--bg) !important;
+}
+
+.buttonPane > li,
+.chart,
+.tablebox,
+input[type=text],
+input[type=search],
+input[type=password],
+input[type=date],
+input[type=email],
+textarea,
+select {
+
   background-color: var(--bg) !important;
 }
 
