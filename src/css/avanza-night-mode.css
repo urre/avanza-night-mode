@@ -13,6 +13,10 @@
   font-family: system-ui, sans-serif !important;
 }
 
+body {
+  background: var(--bg) !important;
+}
+
 body,
 .avanzabankHeaderTopBar,
 .avanzabankHeaderBackground,
@@ -70,7 +74,7 @@ body {
 }
 
 
-.highcharts-series path {
+.highcharts-series-group .highcharts-series path {
   fill: transparent !important;
 }
 
@@ -322,4 +326,25 @@ ul.defaultTabs {
 
 .personal-nav {
   border-right: 1px solid var(--border) !important;
+}
+
+.hstimepanel,
+.plcTeaserContainer,
+.widget,
+.widgetHeader .headingCoverUpDrag,
+.widgetHeader {
+  background: transparent !important;
+}
+
+rect.highcharts-background {
+  fill: transparent !important
+}
+
+
+[style*="background-color: #ffffff"] {
+  background-color: transparent !important;
+}
+
+tspan {
+  color: var(--text) !important
 }
