@@ -3,9 +3,10 @@
   --bg: #25292e;
   --text: #839eb4;
   --color-surface-elevated: #25292e !important;
-  --color-surface-discreet-a:  #25292e !important;
+  --color-surface-discreet-a: #25292e !important;
   --color-surface-discreet: #2e3a44 !important;
   --color-surface-neutral: #2e3a44 !important;
+  --color-surface-main-a: #2e3a44 !important;
 }
 
 * {
@@ -16,6 +17,21 @@
 body {
   background: var(--bg) !important;
 }
+
+.expand-nav-item.is-open {
+  background-color: #25292e !important;
+}
+
+.expand-nav-item:hover {
+  background: var(--bg) !important;
+}
+
+[azamenulinkactive="is-active"]:hover,
+.is-active:hover,
+.expand-nav-item:hover {
+  background: #111316 !important;
+}
+
 
 body,
 .avanzabankHeaderTopBar,
@@ -49,14 +65,13 @@ aza-period-picker,
 .buttonPane > li,
 .chart,
 .tablebox,
-input[type=text],
-input[type=search],
-input[type=password],
-input[type=date],
-input[type=email],
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
 textarea,
 select {
-
   background-color: var(--bg) !important;
 }
 
@@ -64,15 +79,14 @@ aza-toggle-switch {
   background-color: transparent !important;
 }
 
-.active-indicator  {
-  background-color: black !important
+.active-indicator {
+  background-color: black !important;
 }
 
 body {
   background: var(--bg) !important;
   color: #f6f6f6 !important;
 }
-
 
 .highcharts-series-group .highcharts-series path {
   fill: transparent !important;
@@ -337,14 +351,13 @@ ul.defaultTabs {
 }
 
 rect.highcharts-background {
-  fill: transparent !important
+  fill: transparent !important;
 }
-
 
 [style*="background-color: #ffffff"] {
   background-color: transparent !important;
 }
 
 tspan {
-  color: var(--text) !important
+  color: var(--text) !important;
 }
